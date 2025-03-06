@@ -1597,3 +1597,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.new_icon img{
+  width: 25%;
+  height: 25%;
+}
