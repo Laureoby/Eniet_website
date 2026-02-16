@@ -1701,3 +1701,79 @@ section,
     font-size: 2rem;
   }
 }
+
+/* Gestion des pdf sur la page de formation*/
+.pdf-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      z-index: 9999;
+      overflow-y: auto;
+    }
+    
+    .pdf-popup-content {
+      position: relative;
+      background-color: #fff;
+      margin: 30px auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    
+    .pdf-popup-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+    
+    .pdf-popup-header h3 {
+      margin: 0;
+      color: #333;
+    }
+    
+    .pdf-popup-close {
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #666;
+    }
+    
+    .pdf-popup-close:hover {
+      color: #000;
+    }
+    
+    .pdf-viewer {
+      width: 100%;
+      height: 500px;
+      border: 1px solid #ddd;
+      margin-bottom: 15px;
+    }
+    
+    .pdf-download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+    
+    .pdf-download-btn:hover {
+      background-color: #0056b3;
+      color: white;
+    }
+    
+    .service-item {
+      cursor: pointer;
+    }
